@@ -8,12 +8,12 @@
   <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-  <!-- Form Container -->
+
   <div class="form-container">
     <h1>CSTU Passport</h1>
-    <!-- Main Form -->
+
     <form id="myForm" action="#" method="post">
-      <!-- Firstname and Lastname Field -->
+
       <div class="form-group">
         <label for="fullname">Firstname and Lastname</label>
         <input type="text" id="fullname" name="fullname" />
@@ -21,7 +21,7 @@
         <span id="fullnameError" class="error"></span>
       </div>
       
-      <!-- Student ID Field -->
+
       <div class="form-group">
         <label for="studentID">Student ID</label>
         <input type="text" id="studentID" name="studentID" />
@@ -29,7 +29,7 @@
         <span id="studentIDError" class="error"></span>
       </div>
       
-      <!-- University Email Field -->
+
       <div class="form-group">
         <label for="email">University Email</label>
         <input type="email" id="email" name="email" />
@@ -37,7 +37,7 @@
         <span id="emailError" class="error"></span>
       </div>
 
-      <!-- Work/Activity Title Field -->
+
       <div class="form-group">
         <label for="workTitle">Work/Activity Title</label>
         <input type="text" id="workTitle" name="workTitle" />
@@ -57,7 +57,7 @@
         </select>
       </div>
 
-      <!-- Academic Year Field -->
+
       <div class="form-group">
         <label for="academicYear">Academic Year</label>
         <select id="academicYear" name="academicYear">
@@ -74,7 +74,7 @@
         </select>
       </div>
 
-      <!-- Semester Field -->
+
       <div class="form-group">
         <label for="semester">Semester</label>
         <select id="semester" name="semester">
@@ -85,19 +85,19 @@
         </select>
       </div>
 
-      <!-- Start Date/Time Field -->
+
       <div class="form-group">
         <label for="startDate">Start Date/Time</label>
         <input type="datetime-local" id="startDate" name="startDate" />
       </div>
 
-      <!-- End Date/Time Field -->
+
       <div class="form-group">
         <label for="endDate">End Date/Time</label>
         <input type="datetime-local" id="endDate" name="endDate" />
       </div>
 
-      <!-- Location Field -->
+
       <div class="form-group">
         <label for="location">Location</label>
         <input type="text" id="location" name="location" />
@@ -109,10 +109,12 @@
         <textarea id="description" name="description" rows="4"></textarea>
       </div>
 
-      <!-- Submit Button -->
+
       <div class="form-group">
         <input id="submit" type="submit" value="Submit" />
-      </div>
+
+      </div> 
+       <button onclick="clearField()">Clear It</button> 
     </form>
   </div>
   
@@ -157,7 +159,7 @@
       <p style="font-size: 120%;color: black;"> > </p>
     </a>
 
-  <!-- JavaScript -->
+
   <script src="JS/script.js"></script>
 
 
